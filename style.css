@@ -1,0 +1,110 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+@media(max-width:900px) {
+    body{
+    display:none;}
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: relative;
+    bottom: -550px;
+    right: 130px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background-color: #19a1ad;
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-top.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 30cm 500px, -5cm -500px;
+}
+#gallery{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;    
+}
+#gallery .card{
+    position: absolute;
+    width: 70%;
+    height: 150%;
+    top: 20%;
+    right: 40%;
+    border-radius: 7%;
+}
+#gallery .person{
+    position: absolute;
+    top: 110%;
+    right: 65%;
+    z-index: 1;
+    border-radius: 70%;
+}
+#gallery .mybox{
+    position: absolute;
+    top: 140%;
+    right: 40%;
+    border: 1px solid white;
+    width: 69.5%;
+    height: 160%;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    background-color:rgb(253, 251, 251);
+}
+#gallery .info span strong{
+    position:relative;
+    z-index: 1;
+    background:none;
+    font-size: 20px;
+    top: 300px;
+    right:150px;
+}
+#gallery .info span h3{
+    float:inline-end;
+    position:relative;
+    z-index: 1;
+    background:none;
+    top: 259px;
+    right:70px;
+    color:gray;
+}
+#gallery .info span h4{
+    float:inline-end;
+    position:relative;
+    z-index: 1;
+    background:none;
+    top: 250px;
+    right:130px;
+    color:gray;
+}
+#gallery .line{
+    border-top: 1px solid black;
+    position: relative;
+    top: 260px;
+    right: 55px;
+    width: 387px;
+    color: gray;
+}
+#gallery .info footer1{
+    position:relative;
+    z-index: 1;
+    background:none;
+    font-size: 20px;
+    font-weight: bolder;
+    word-spacing: 47px;
+    top: 280px;
+    left:5%;
+ 
+}
+#gallery .info footer2{
+    position:relative;
+    z-index: 1;
+    background:none;
+    font-size: 15px;
+    color:gray;
+    font-weight: bolder;
+    word-spacing: 50px;
+    top: 310px;
+    right: 51%;
+}
